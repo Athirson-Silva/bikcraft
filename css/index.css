@@ -1,0 +1,36 @@
+html {
+    display: flex;
+}
+body{
+    max-width: 1000px;
+    background-color: black;
+    place-self: center;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.nav { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav img {
+    height: 20px;
+}
+
+.nav nav li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    justify-content: end;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+}
